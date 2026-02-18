@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Version>1.0.0</Version>
+	<PackageId>HireHub.Shared.Persistence</PackageId>
+	<Authors>HireHub Team</Authors>
+	<Company>Virtusa</Company>
+	<Description>A shared library for HireHub project</Description>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.22" />
+  </ItemGroup>
+
+</Project>
