@@ -29,7 +29,7 @@ var app = builder.Build();
 
     app.UseSwagger();
     app.UseSwaggerUI();
-
+app.MapGet("/health", () => Results.Ok("Healthy"));
 
 app.UseHireHubRequestLogging();
 app.UseHireHubGlobalException();
