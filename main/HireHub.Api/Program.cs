@@ -3,6 +3,8 @@ using HireHub.Shared.Authentication;
 using HireHub.Shared.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
 
 // Add services to the container.
 
